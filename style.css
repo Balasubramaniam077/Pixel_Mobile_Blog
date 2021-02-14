@@ -1,0 +1,32 @@
+body{
+    background-image: url(natarajan.jpg);
+    background-size: 100%;
+}
+#border1{
+    border: 15px solid transparent;
+    padding:15px;
+    border-image: url(img.png) 30 stretch;
+}
+h1{
+    text-align: center;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: chocolate;
+}
+h3{
+    width: 150px;
+    height: 100px;
+    color: black;
+    position: relative;
+    animation-name: example;
+    animation: example 20s infinite;
+}
+      
+@keyframes example {
+    0%   {color: black; left:0px; top:0px;}
+    20%  {color: black; left: 30%; top: 0px;}
+    40%  {color: black; left: 60%; top: 0px;}
+    60%  {color: black; left: 89%; top: 0px;}
+    80% {color: black; left: 60%; top: 0px;}
+    100%  {color: black; left: 30%; top: 0px;}
+}
