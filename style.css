@@ -1,0 +1,79 @@
+body{
+    background-color:  rgb(169, 169, 169);
+}
+h1{
+    text-align: left;
+    font-style: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a{
+    text-decoration:none;
+    font-style: bold;
+    color: white;
+}
+.star{
+    position: absolute;
+    top: 75px;
+    left: 130px;
+}
+.rating{
+    position: absolute;
+    top: 80px;
+    left: 250px;
+}
+.first{
+    position: absolute;
+    top: 10px;
+    right: -70px;
+}
+.price{
+    position: absolute;
+    top: 620px;
+    left: 350px;
+}
+.deli{
+    position: absolute;
+    top: 620px;
+    left: 800px;
+}
+.black{
+    background-color: black;
+}
+table {
+        border-collapse: collapse;
+        width: 100%;
+}
+      
+td {
+        border: 1px solid white;
+        text-align: left;
+        padding: 8px;
+}
+      
+tr:nth-child(even) {
+        background-color: white;
+}
+address{
+    text-align: center;
+}
+footer{
+    color: white;
+    background-color: black;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+footer a{
+    color: white;
+    padding-left: 20px;
+}
+address{
+    text-align: left;
+    padding-left: 100px;
+}
+map area{
+    padding-left: 100px ;
+}
+.foo{
+    padding-left: 550px;
+}
